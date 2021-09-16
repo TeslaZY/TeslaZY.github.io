@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>分布式调度架构</title>
+      <link href="/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B0%83%E5%BA%A6%E6%9E%B6%E6%9E%84/"/>
+      <url>/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B0%83%E5%BA%A6%E6%9E%B6%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<p>分布式系统为用户任务寻找合适的服务器的过程叫做<strong>调度</strong>。分布式架构中<strong>调度器</strong>是一个非常重要的部分，调度器提供多种调度策略并完成具体的调度工作。常见的调度原理有单体调度、两层调度、共享状态调度。</p><h1>单体调度</h1><p>集群中只有一个节点运行调度进程，该节点对集群中的其他节点具有访问权限，可以搜集其他节点的状态、资源信息等进行统一管理，同时结合用户任务对资源的需求，在调度器中把任务与资源进行匹配并根据匹配结果将任务指派给合适节点的调度方式叫做单体调度。</p><p><strong>单体调度器拥有全局资源视图和全局任务，可以很容易地实现对任务的约束并实施全局性的调度策略</strong>。Google Borg、Kubernetes使用的就是单体调度设计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分布式 </category>
+          
+          <category> 调度策略 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分布式 </tag>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 调度策略 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分布式体系结构</title>
       <link href="/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
       <url>/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</url>
